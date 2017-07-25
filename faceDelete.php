@@ -33,6 +33,7 @@ function request_post($url = '', $param = '')
 }
 $token=$_SESSION['token'];
 $url = 'https://aip.baidubce.com/rest/2.0/face/v2/faceset/user/delete?access_token=' . $token;
+
 for($i=5;$i<=5;$i++)
 {
 $bodys = array(
